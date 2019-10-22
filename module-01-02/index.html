@@ -6,28 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Module 01</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body style="background-color: teal;">
-    <header>
-        <nav>
-            <a href="#">
-                <img src="./images/logo.png" alt="logotype" width="91" height="23">
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="logotype" href="#">
+                    <img class="logotype__img" src="./images/logo.png" alt="logotype" width="91" height="23">
+                </a>
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">Home</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">Services</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">About</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">Works</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">Blog</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#">Clients</a>
+                    </li>
+                    <li class="header__list-item header__list-item-last">
+                        <a class="header__list-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <h1>Welcome to STARTUP</h1>
-        <p>Your Favourite Creative Agency Template</p>
-        <button>GET STARTED</button>
+            <h1 class="header__title">Welcome to STARTUP</h1>
+            <p class="header__subtitle">Your Favourite Creative Agency Template</p>
+            <button class="header__btn">Get Started</button>
+        </div>
     </header>
     <main>
         <section>
