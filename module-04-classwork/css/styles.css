@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("https://picsum.photos/900/900");
+    background-size: cover;
+    background-position: center;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* Colors */
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, .3);
+    background-color: #1abc9c80;
+    background-color: #fff;
+} */
+
+/* End Colors */
+
+/* Linear Gradient */
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, red 0% 20%, blue 20% 40%, green 40% 100%);
+    background-image: radial-gradient(circle at right, red, blue);
+} */
+/* End Linear Gradient */
+
+/* Pseudo */
+
+/* 
+::before
+::after
+::first-letter
+::first-line
+::selection
+*/
+
+/* .text::before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: violet;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: violet;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} */
+
+/* .text::first-letter {
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+} */
+
+/* .text::first-line {
+    color: red;
+} */
+
+/* .list-item-link:hover {
+    color: red;
+    background-color: teal;
+}
+
+.list-item-link:focus {
+    color: green;
+    background-color: yellow;
+}
+
+input:focus {
+    outline-color: violet;
+} */
+
+/* .list-item:first-child .list-item-link {
+    color: green;
+}
+
+.list-item:last-child .list-item-link {
+    color: blue;
+}
+
+.list-item:nth-child(3) .list-item-link {
+    color: palevioletred;
+}
+
+.list-item:nth-child(4) .list-item-link {
+    color: tomato;
+} */
+
+/* .list-item:not(:last-child) {
+    margin-bottom: 20px;
+} */
+
+/* an+b */
+/* n - 0
+n - 1
+n - 2 */
+
+/* .list-item:nth-last-child(-n + 2) .list-item-link {
+    color: tomato;
+} */
+
+
+/* End Pseudo */
+
+/* Float */
+/* .box {
+    width: 100px;
+    height: 100px;
+}
+
+.box:first-child {
+    float: left;
+    background-color: tomato;
+}
+
+.box:nth-child(2) {
+    float: left;
+    width: 120px;
+    background-color: green;
+}
+
+.box:last-child {
+    float: left;
+    width: 240px;
+    background-color: thistle;
+} */
+
+.image {
+    display: block;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.image-r {
+    float: right;
+    clear: left;
+}
+
+.some-text {
+    color: #fff;
+    background-color: violet;
+}
+
+
+/* End Float */

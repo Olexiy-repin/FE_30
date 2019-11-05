@@ -28,7 +28,7 @@ img {
 .header {
     padding-top: 38px;
     padding-bottom: 256px;
-    background-image: url("../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 255, .5), rgba(255, 0, 0, .5)), url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

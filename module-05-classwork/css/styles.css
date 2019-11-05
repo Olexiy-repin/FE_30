@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: orange;
+    --main-font: "Montserrat";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    min-height: 160px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: teal;
+    position: relative;
+}
+
+.box {
+    font-family: var(--main-font);
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box:first-child {
+    position: absolute;
+    width: 240px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--main-bg-color);
+}
+
+.box:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    background-color: tomato;
+}
+
+.box:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    background-color: turquoise;
+}
