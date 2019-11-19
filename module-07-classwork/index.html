@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module 07</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <section class="font-section">
+        <div class="container">
+            <h1 class="font-title">web font</h1>
+            <p class="font-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eligendi iure
+                possimus, vitae soluta iste reiciendis nihil hic quibusdam sint asperiores enim suscipit amet. Corrupti
+                sit consequuntur fugit sed dolore.
+                Maiores modi ducimus repudiandae vel obcaecati delectus excepturi aspernatur unde voluptas molestiae
+                velit eligendi inventore vero, accusamus exercitationem quidem facilis magnam quos! Adipisci, magnam a
+                molestiae pariatur ab rem dolorum.
+                Necessitatibus ab quam ex distinctio illo quasi dignissimos dolor! Deserunt enim veritatis pariatur
+                repudiandae minima amet. Nemo reiciendis suscipit, ipsa optio voluptatibus voluptates voluptatem tempore
+                earum eligendi adipisci nobis minus!
+                Odio facilis placeat laborum atque, pariatur ratione amet eius itaque explicabo blanditiis commodi!
+                Dolores impedit optio amet consequuntur minima laboriosam, alias inventore ullam nulla, necessitatibus
+                laborum. Aspernatur quaerat voluptatem rerum.
+                Unde iure voluptate, aliquam voluptatibus ea laudantium! Aliquid qui reprehenderit aspernatur optio
+                reiciendis ipsum esse veniam excepturi atque ipsa voluptatem, animi facilis pariatur iure sit quisquam
+                veritatis officiis, impedit voluptas?</p>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="container">
+            <form action="#" class="form">
+                <input type="text" class="form__input" placeholder="Your name..." name="name" autofocus minlength="5"
+                    maxlength="10" required>
+                <input type="email" class="form__input" placeholder="Your email...*" name="email" required>
+                <input type="tel" class="form__input" placeholder="096-045-34-56*" name="phone" required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+                <section>
+                    <h2 class="form__title">Hobby</h2>
+
+                    <input type="checkbox" name="hobby" id="swim" class="form__checkbox" value="swimming" checked>
+                    <label for="swim">swimming</label>
+
+                    <input type="checkbox" name="hobby" id="box" class="form__checkbox" value="boxing">
+                    <label for="box">boxing</label>
+
+                    <input type="checkbox" name="hobby" id="football" class="form__checkbox" value="football">
+                    <label for="football">football</label>
+
+                </section>
+
+                <section>
+                    <h2 class="form__title">Age</h2>
+
+                    <input type="radio" name="age" id="12" class="form__checkbox" value="12" checked>
+                    <label for="12">12</label>
+
+                    <input type="radio" name="age" id="13" class="form__checkbox" value="13">
+                    <label for="13">13</label>
+
+                    <input type="radio" name="age" id="14" class="form__checkbox" value="14">
+                    <label for="14">14</label>
+
+                </section>
+
+                <section>
+                    <h2 class="form__title">Comment</h2>
+                    <textarea name="comment" cols="30" rows="10" placeholder="Your message..." required></textarea>
+                </section>
+
+                <section>
+                    <h2 class="form__title">City</h2>
+                    <select name="city">
+                        <option disabled selected>Select your city</option>
+                        <option value="Kiev">Kiev</option>
+                        <option value="Vinnitsa">Vinnitsa</option>
+                        <option value="Kharkov">Kharkov</option>
+                    </select>
+                </section>
+
+                <button type="submit" class="form__btn">submit</button>
+                <button type="reset" class="form__btn">reset</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
