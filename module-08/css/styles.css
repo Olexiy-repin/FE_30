@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+picture {
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.first-section {
+    padding-top: 60px;
+    padding-bottom: 26px;
+}
+
+.first-section__content {
+    margin-bottom: 42px;
+}
+
+.first-section__text-wrapper {
+    margin-bottom: 23px;
+}
+
+.first-section__content-text {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: .7px;
+    color: #464646;
+    position: relative;
+}
+
+.first-section__content-text:first-child::before {
+    display: block;
+    content: "";
+    width: 17px;
+    height: 13px;
+    background-image: url("../images/quote.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -22px;
+    left: 0;
+}
+
+.first-section__content-text:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.first-section__plashka {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .9px;
+    background-color: #7550de;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 39px 22px 25px;
+    position: relative;
+}
+
+.first-section__plashka::before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: rgb(233, 172, 56);
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 620px;
+    }
+
+    .first-section {
+        padding-top: 60px;
+        padding-bottom: 34px;
+    }
+
+    .first-section__content-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .first-section__content-text:first-child::before {
+        background-image: url("../images/quote-md.png");
+        width: 26px;
+        height: 20px;
+        transform: translateX(calc(-100% - 8px));
+    }
+
+    .first-section__plashka {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 37px 110px 42px 76px;
+        text-align: left;
+    }
+
+    .first-section__plashka::before {
+        height: 2px;
+        width: 100px;
+        left: 0;
+        top: 50%;
+        transform: translateX(0) translateY(-50%) rotate(90deg);
+    }
+}
+
+@media (min-width: 1340px) {
+    .container {
+        width: 1300px;
+    }
+
+    .first-section {
+        padding-top: 116px;
+    }
+
+    .first-section__content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .first-section__text-wrapper {
+        width: 536px;
+    }
+
+    .first-section__content-text {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .first-section__plashka {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 1.25px;
+        padding: 65px 258px 60px 228px;
+    }
+
+    .first-section__plashka::before {
+        left: 150px;
+    }
+}
