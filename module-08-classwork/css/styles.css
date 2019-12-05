@@ -1,0 +1,234 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin_cyrillic-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aguafina-script-regular - latin */
+@font-face {
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Aguafina Script Regular'), local('AguafinaScript-Regular'),
+        url('../fonts/aguafina-script-v8-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/aguafina-script-v8-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* @media screen and (min-width: 768px) {
+    p {
+        font-size: 54px;
+    }
+} */
+
+/* @media print {
+    p {
+        font-size: 54px;
+    }
+} */
+
+/* @media (orientation: landscape) {
+    body {
+        background-color: green;
+    }
+} */
+
+/* .list {
+    width: 280px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.list-item {
+    height: 100px;
+    border: 1px solid #000;
+}
+
+@media (max-width: 767px) {
+    .list-item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .list {
+        width: 680px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .list-item {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .list-item:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 960px) {
+    .list {
+        width: 800px;
+    }
+
+    .list-item {
+        width: 21%;
+    }
+} */
+
+/* @media (max-width: 399px) {
+    body {
+        background-color: crimson;
+    }
+} */
+
+/* Когда ширина вьюпорта будет 400px и больше, примени какие-то правила */
+/* @media (min-width: 400px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: cornflowerblue;
+    }
+} */
+
+/* @media (max-width: 400px),
+(min-width: 768px) {
+    body {
+        background-color: fuchsia;
+    }
+} */
+
+/* body {
+    background-color: teal;
+} */
+
+/* ========== MIN-WIDTH MAX-WIDTH ========== */
+
+
+/* 
+@media (max-width: 400px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        background-color: coral;
+    }
+}
+
+@media (width: 600px) {
+    body {
+        background-color: darkgreen;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: bisque;
+    }
+} */
+
+/* ========== AND ========== */
+
+/* @media (max-width: 400px) {
+    body {
+        background-color: darkmagenta;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    body {
+        background-color: darkorange;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: darkred;
+    }
+} */
+
+/* ========== OR ========== */
+/* @media (max-width: 500px),
+(min-width: 768px) {
+    body {
+        background-color: deeppink;
+    }
+} */
+
+/* ========== TYPES ========== */
+
+/* @media all and (min-width: 768px) {
+    p {
+        text-decoration: underline;
+    }
+} */
+
+/* @media screen and (min-width: 768px) {
+    p {
+        text-decoration: underline;
+    }
+} */
+
+/* @media print and (min-width: 768px) {
+    p {
+        text-decoration: underline;
+    }
+} */
+
+/* ========== ORIENTATION ========== */
+
+/* @media (orientation: landscape) {
+    body {
+        background-color: firebrick;
+    }
+} */
+
+/* @media (orientation: portrait) {
+    body {
+        background-color: forestgreen;
+    }
+} */

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+@keyframes load {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+} */
+
+/* @keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.container {
+    width: 600px;
+    min-height: 300px;
+    background-color: teal;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 1s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+}
+
+.box:hover {
+    animation-play-state: paused;
+} */
+/* 
+body {
+    background-color: teal;
+}
+
+.load-container {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #34495e;
+    overflow: hidden;
+}
+
+.load {
+    width: 400px;
+    height: 40px;
+    background-image: repeating-linear-gradient(45deg, transparent 0 5px, #fff 5px 10px);
+
+    animation-name: load;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */

@@ -1,0 +1,139 @@
+/*
+1) FLEX
+- flex element, flex container
+- flex-direction
+- justify-content
+- align-items
+- flex-wrap
+- align-content
+- align-self
+- order
+- flex-basis
+- flex-grow
+- flex-shrink
+
+2) SHADOWS
+- text-shadow
+- box-shadow
+
+3) TRANSFORMS
+
+4) TRANSITION
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color: #34495e;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box {
+    flex-basis: 500px;
+    height: 100px;
+    color: #fff;
+    font-size: 24px;
+    outline: 1px solid #fff;
+    text-align: center;
+}
+
+.box:first-child {
+    /* align-self: flex-end; */
+    /* order: 1; */
+    background-color: #9b59b6;
+}
+
+.box:nth-child(2) {
+    /* align-self: center; */
+    background-color: #3498db;
+}
+
+.box:nth-child(3) {
+    /* order: 1; */
+    /* order: -1; */
+    background-color: #2ecc71;
+}
+
+.box:last-child {
+    background-color: #e67e22;
+}
+
+.shadow-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #9b59b6;
+
+    /* box-shadow: x y blur spread color; */
+    box-shadow: inset 0 0 10px 0 rgb(0, 0, 0);
+    /* transform: scaleY(1); */
+    transition: all .2s linear;
+}
+
+.shadow-box:hover {
+    background-color: #e67e22;
+    transform: rotate(140deg);
+}
+
+.shadow-text {
+    /* text-shadow: x y blur color; */
+    text-shadow: 1px 1px 3px red;
+}
+
+.footer .container {
+    border-top: 1px solid #ccc;
+}
+
+.navigation-list {
+    width: 500px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.navigation-list__link {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.navigation-list__link::after {
+    display: block;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #e67e22;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s linear;
+    /* margin-top: 12px; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) rotate(0deg);
+    bottom: 0;
+}
+
+.navigation-list__link:hover::after {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    bottom: -12px;
+    transform: translate(-50%) rotate(360deg);
+}
