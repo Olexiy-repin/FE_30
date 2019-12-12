@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+}
+
+.banner {
+  min-height: 600px;
+  background-image: url("../images/car.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: slategray;
+  padding: 30px 0;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.social-list__item-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+/* .social-list__item-link_facebook {
+  background-image: url("../images/facebook.svg");
+}
+
+.social-list__item-link_twitter {
+  background-image: url("../images/telegram.svg");
+}
+
+.social-list__item-link_telegram {
+  background-image: url("../images/twitter.svg");
+} */
+
+/* .social-list__item-svg {
+  width: 32px;
+  height: 32px;
+} */
+
+/* @media @media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .banner {
+    background-image: url("../images/car@2x.jpg");
+  }
+} */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .banner {
+    background-image: url("../images/car@2x.jpg");
+  }
+}
+
+.social-list__item-svg {
+  width: 32px;
+  height: 32px;
+  fill: red;
+  stroke: black;
+  stroke-width: 5px;
+  fill-opacity: 0.5;
+  stroke-opacity: 0.5;
+}
+
+/* 
+block__element_modifier 
+block__element--modifier
+*/
+
+/* .logo */
+/* .btn */
+/* .navigation */
+/* .navigation__item */
+
+/* 
+.navigation (<nav>)
+.navigation__list (<ul>)
+.navigation__list-item (<li>)
+.navgiation__list-item-link (<a>)
+*/
+
+.button {
+  width: 200px;
+  height: 200px;
+}
+
+.button_header {
+  color: red;
+}
+
+.button_footer {
+  color: black;
+}
+
+.list__item-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list__item-link_twitter {
+  background-image: url("../images/twitter.svg");
+}
+
+.list__item-link_facebook {
+  background-image: url("../images/facebook.svg");
+}
